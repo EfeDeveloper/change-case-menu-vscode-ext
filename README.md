@@ -1,6 +1,16 @@
-# Format Switcher
+<div align="center">
+  <img src="./images/icon.png" alt="logo" width="100" />
 
-Change the case of selected text in the editor.
+  <h1>Format Switcher</h1>
+</div>
+
+## **Table of contents**
+
+1. [Features](#features)
+
+2. [Usage](#usage)
+
+3. [Requirements](#requirements)
 
 ## Features
 
