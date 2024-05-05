@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import * as lodash from 'lodash';
+import lodash from 'lodash';
 
 type CaseType = 'camelCase' | 'snakeCase' | 'Constant case' | 'kebabCase' | 'trainCase';
 
