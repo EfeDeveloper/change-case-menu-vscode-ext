@@ -3,7 +3,7 @@
     "displayName": "Format Switcher",
     "description": "Transform your text with ease! 🚀 Instantly switch between various formatting styles with our extension's context menu. Simply select your text and choose the desired format. Elegant texts, your way! 💡",
     "icon": "images/icon.png",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/EfeDeveloper/format-switcher.git"
