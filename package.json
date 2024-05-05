@@ -40,7 +40,7 @@
         "submenus": [
             {
                 "id": "changeCaseSubmenuId",
-                "label": "ChangeCase 🔠 "
+                "label": "ChangeCase 🔠"
             }
         ],
         "menus": {
