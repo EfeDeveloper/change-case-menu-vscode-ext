@@ -6,7 +6,7 @@
     "version": "0.1.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/EfeDeveloper/change-case-menu-vscode-ext.git"
+        "url": "https://github.com/EfeDeveloper/format-switcher.git"
     },
     "publisher": "EdFerVIIIA",
     "engines": {
