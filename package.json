@@ -2,8 +2,9 @@
     "name": "text-case-changer",
     "displayName": "Format Switcher",
     "description": "Transform your text with ease! 🚀 Instantly switch between various formatting styles with our extension's context menu. Simply select your text and choose the desired format. Elegant texts, your way! 💡",
+    "icon": "images/icon.png",
     "version": "1.0.0",
-    "publisher": "Edwin Villa",
+    "publisher": "EdFerVIIIA",
     "engines": {
         "vscode": "^1.85.0"
     },
