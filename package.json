@@ -1,0 +1,93 @@
+{
+    "name": "text-case-changer",
+    "displayName": "Format Switcher",
+    "description": "Transform your text with ease! 🚀 Instantly switch between various formatting styles with our extension's context menu. Simply select your text and choose the desired format. Elegant texts, your way! 💡",
+    "version": "1.0.0",
+    "publisher": "Edwin Villa",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Other",
+        "Formatters"
+    ],
+    "activationEvents": [],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.changeCase.camelCase",
+                "title": "CamelCase"
+            },
+            {
+                "command": "extension.changeCase.snakeCase",
+                "title": "snake_case"
+            },
+            {
+                "command": "extension.changeCase.upperSnakeCase",
+                "title": "CONSTANT_CASE"
+            },
+            {
+                "command": "extension.changeCase.kebabCase",
+                "title": "kebab-case"
+            },
+            {
+                "command": "extension.changeCase.trainCase",
+                "title": "Train-Case"
+            }
+        ],
+        "submenus": [
+            {
+                "id": "changeCaseSubmenuId",
+                "label": "ChangeCase 🔠 "
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "submenu": "changeCaseSubmenuId"
+                }
+            ],
+            "changeCaseSubmenuId": [
+                {
+                    "command": "extension.changeCase.camelCase"
+                },
+                {
+                    "command": "extension.changeCase.snakeCase"
+                },
+                {
+                    "command": "extension.changeCase.upperSnakeCase"
+                },
+                {
+                    "command": "extension.changeCase.kebabCase"
+                },
+                {
+                    "command": "extension.changeCase.trainCase"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "pnpm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "pnpm run compile && pnpm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.202",
+        "@types/mocha": "^10.0.6",
+        "@types/node": "18.x",
+        "@types/vscode": "^1.85.0",
+        "@typescript-eslint/eslint-plugin": "^6.19.1",
+        "@typescript-eslint/parser": "^6.19.1",
+        "@vscode/test-cli": "^0.0.4",
+        "@vscode/test-electron": "^2.3.9",
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}
