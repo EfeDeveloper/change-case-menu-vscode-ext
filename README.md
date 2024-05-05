@@ -1,10 +1,10 @@
-# change-case-menu
+# Format Switcher
 
 Change the case of selected text in the editor.
 
 ## Features
 
-`change-case-menu` is a simple extension that allows you to change the formatting of selected text in the editor. The extension adds a new menu item to the context menu.
+`Format Switcher` is a simple extension that allows you to change the formatting of selected text in the editor. The extension adds a new menu item to the context menu.
 
 The extension supports the following cases:
 
@@ -18,7 +18,7 @@ Train-Case
 
 ## Usage
 
-![change-case-menu](./images/ExtExample.gif)
+![Format Switcher](./images/ExtExample.gif)
 
 ## Requirements
 
